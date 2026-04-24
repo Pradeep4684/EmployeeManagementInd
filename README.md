@@ -30,36 +30,31 @@ Built using clean architecture and industry-standard practices.
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
+```
 src/main/java/com/pagination/sorting
-│
-├── controller        # REST Controllers (API endpoints)
+├── controller
 │   └── EmployeeController.java
-│
-├── service           # Business logic
+├── service
 │   ├── EmployeeService.java
 │   └── EmployeeServiceImpl.java
-│
-├── repository        # Database access layer
+├── repository
 │   └── EmployeeRepository.java
-│
-├── entity            # JPA Entities
+├── entity
 │   └── Employee.java
-│
-├── dto               # Data Transfer Objects
+├── dto
 │   ├── EmployeeDto.java
 │   └── PageResponse.java
-│
-├── mapper            # Entity ↔ DTO conversion
+├── mapper
 │   └── EmployeeMapper.java
-│
-└── exception         # Global exception handling
+└── exception
     └── GlobalExceptionHandler.java
 
 src/main/resources
-│
 └── application.properties
+```
+
 ```
 
 ---
